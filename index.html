@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORA BEAUTY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg" alt="Nora Beauty Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">ANASAYFA</a></li>
+                    <li><a href="#">HİZMETLER</a></li>
+                    <li><a href="#">HAKKIMIZDA</a></li>
+                    <li><a href="#">ÜRÜNLER</a></li>
+                    <li><a href="#">KAMPANYALAR</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <img src ="images/1.PNG">
+        <div class="text-box">
+            <h1>Nora Beauty</h1>
+            <p>GÜZELLİĞİNİZE GÜZELLİK KATIN</p>
+            <a href="" class="hero-btn">HAKKIMIZDA</a>
+        </div>
+    </section>
+
+    <!---------course--------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, constetur adipiscint elit</p>
+
+        <div class="row">
+            <div class="course-col">
+               <h3>Intermediate</h3>
+               <p>bu da böyle bi paragraf işte ne diyeyim</p> 
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>bu da böyle bi paragraf işte ne diyeyim</p> 
+             </div>
+             <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>bu da böyle bi paragraf işte ne diyeyim</p> 
+             </div>
+
+        </div>
+    </section>
+
+
+    <!-----------------campus------------------>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Baska bir paragraf olusturuldu</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/islemler.PNG">
+                <div class="layer">
+                    <h3>Bakım</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/epilasyon.PNG">
+                <div class="layer">
+                    <h3>Epilasyon</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/bolgeselincelme.PNG">
+                <div class="layer">
+                    <h3>Bölgesel incelme</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!---------------JavaScript for Toggle Menu-------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
