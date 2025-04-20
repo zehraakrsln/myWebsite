@@ -238,9 +238,51 @@ h3{
 }
 
 /*-----------------hizmetlerimiz-------------*/
-.facilities{
+.hizmetler {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Flexbox ile öğeleri satıra yerleştiriyoruz */
+    justify-content: space-between; /* Görseller arasındaki boşluğu eşitler */
+    gap: 20px; /* Görseller arasındaki boşluğu sağlar */
+}
+
+/* Her bir hizmetin bulunduğu kolon */
+.hizmetler-col {
+    flex: 1 1 30%; /* Eşit genişlikte 3 öğe için %30'luk alan */
+    flex-basis: 32%;
+    margin-bottom: 20px; /* Alt kısmına boşluk ekler */
+    margin-right: 20px;
+    text-align: left;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex; /* Flex düzenini kullanıyoruz */
+    justify-content: center; /* Görseli yatayda ortalar */
+    align-items: center; /* Görseli dikeyde de ortalar */
+}
+
+/* Görsellerin boyutunu ve kutusunu ayarlama */
+.hizmetler-col img {
+    width: 100%; /* Görselin genişliği tamamen kapsar */
+    height: 250px; /* Görselin yüksekliği sabit tutulur */
+    object-fit: cover; /* Görselin oranı bozulmadan kutuya sığar */
+    border-radius: 10px;
+}
+
+/* Paragrafların düzeni */
+.hizmetler-col p {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* Başlık düzeni */
+.hizmetler-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
 }
