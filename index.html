@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NORA BEAUTY</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+    <nav>
+        <a href="javascript:void(0)" onclick="navigateToPage('index.html')"><img src="images/logo.jpeg" alt="Nora Beauty Logo"></a>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('index.html')">ANASAYFA</a></li>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('hizmetler.html')">HİZMETLER</a></li>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('hakkimizda.html')">HAKKIMIZDA</a></li>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('urunler.html')">ÜRÜNLER</a></li>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('kampanyalar.html')">KAMPANYALAR</a></li>
+                <li><a href="javascript:void(0)" onclick="navigateToPage('iletisim.html')">İLETİŞİM</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/logo.jpeg" alt="Nora Beauty Logo"></a>
-            <div class="nav-links" id="nav-links">
-                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#">ANASAYFA</a></li>
-                    <li><a href="#">HİZMETLER</a></li>
-                    <li><a href="#">HAKKIMIZDA</a></li>
-                    <li><a href="#">ÜRÜNLER</a></li>
-                    <li><a href="#">KAMPANYALAR</a></li>
-                    <li><a href="#">İLETİŞİM</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <img src ="images/1.PNG">
+        <img src="images/1.PNG" alt="Nora Beauty Background Image">
         <div class="text-box">
             <h1>Nora Beauty</h1>
             <p>GÜZELLİĞİNİZE GÜZELLİK KATIN</p>
-            <a href="" class="hero-btn">HAKKIMIZDA</a>
+            <a href="hakkimizda.html" class="hero-btn">HAKKIMIZDA</a>
         </div>
     </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
 
     <!---------course--------->
 
@@ -92,17 +99,17 @@
     
         <div class="row">
             <div class="hizmetler-col">
-                <img src="images/islemler.PNG">
+                <img src="images/g6.PNG">
                 <h3>cilt analizi ve cilt bakımı</h3>
                 <p>ufak bi metin oluşturacağım</p>
             </div>
             <div class="hizmetler-col">
-                <img src="images/epilasyon.PNG">
+                <img src="images/g7.PNG">
                 <h3>Alexandirate ve buz lazer</h3>
                 <p>ufak bi metin oluşturacağım</p>
             </div>
             <div class="hizmetler-col">
-                <img src="images/bolgeselincelme.PNG">
+                <img src="images/g11.PNG">
                 <h3>ameliyatsız incelme</h3>
                 <p>ufak bi metin oluşturacağım</p>
             </div>
@@ -181,3 +188,15 @@
     </script>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+

@@ -435,3 +435,7 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
