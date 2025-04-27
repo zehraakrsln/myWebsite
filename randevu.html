@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randevu Al</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="randevu">
+        <h1>Randevu Al</h1>
+        <form>
+            <label for="name">Adınız Soyadınız:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="date">Randevu Tarihi:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="service">Hizmet Seçin:</label>
+            <select id="service" name="service">
+                <option value="cilt-bakimi">Cilt Bakımı</option>
+                <option value="lazer-epilasyon">Lazer Epilasyon</option>
+                <option value="kirpik-islemi">Kirpik İşlemi</option>
+            </select><br><br>
+
+            <button type="submit">Randevu Al</button>
+        </form>
+    </section>
+</body>
+</html>
