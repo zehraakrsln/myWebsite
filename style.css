@@ -1037,3 +1037,478 @@ footer {
     background-color: #f8e7e7;
     color: #6c5b5b;
 }
+
+
+/*--------------------------------Genital ve koltuk altı beyazlatma(4 seans) randevu sayfası--------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Ana sayfa ile uyumlu renk */
+    color: #333;
+}
+
+h1, h2 {
+    color: #6c5b5b; /* Ana sayfadaki başlık rengiyle uyumlu */
+    text-align: center;
+}
+
+.randevu-header {
+    background-color: #f8e7e7; /* Ana sayfa ile uyumlu soluk pembe tonları */
+    padding: 40px;
+    text-align: center;
+}
+
+.randevu-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.randevu-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.randevu-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.randevu-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.randevu-form .btn {
+    background-color: #f76c6c; /* Pembe tonlarında buton rengi */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu-form .btn:hover {
+    background-color: #ff4757; /* Daha koyu pembe tonlarında buton hover efekti */
+}
+
+.randevu-ekstra-bilgiler {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama h2 {
+    color: #6c5b5b; /* Başlık rengi ile uyumlu */
+    margin-bottom: 10px;
+}
+
+.aciklama p {
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8e7e7; /* Ana sayfa rengi ile uyumlu */
+    color: #6c5b5b;
+}
+
+/*-------------------Genital ve koltuk altı beyazlatma-----------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Ana sayfa ile uyumlu renk */
+    color: #333;
+}
+
+h1, h2 {
+    color: #6c5b5b; /* Ana sayfadaki başlık rengiyle uyumlu */
+    text-align: center;
+}
+
+.randevu-header {
+    background-color: #f8e7e7; /* Ana sayfa ile uyumlu soluk pembe tonları */
+    padding: 40px;
+    text-align: center;
+}
+
+.randevu-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.randevu-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.randevu-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.randevu-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.randevu-form .btn {
+    background-color: #f76c6c; /* Pembe tonlarında buton rengi */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu-form .btn:hover {
+    background-color: #ff4757; /* Daha koyu pembe tonlarında buton hover efekti */
+}
+
+.randevu-ekstra-bilgiler {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama h2 {
+    color: #6c5b5b; /* Başlık rengi ile uyumlu */
+    margin-bottom: 10px;
+}
+
+.aciklama p {
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8e7e7; /* Ana sayfa rengi ile uyumlu */
+    color: #6c5b5b;
+}
+
+/*------------------------------------Green Peel(tek seans)--------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #6c5b5b;
+}
+
+h1, h2 {
+    color: #d81b60; /* Koyu Pembe */
+    text-align: center;
+}
+
+.randevu-header {
+    background-color: #f8bbd0; /* Pembe ton */
+    padding: 40px;
+    text-align: center;
+}
+
+.randevu-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.randevu-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.randevu-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.randevu-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.randevu-form .btn {
+    background-color: #d81b60; /* Koyu Pembe */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu-form .btn:hover {
+    background-color: #c2185b;
+}
+
+.randevu-ekstra-bilgiler {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama h2 {
+    color: #d81b60; /* Koyu Pembe */
+    margin-bottom: 10px;
+}
+
+.aciklama p {
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8bbd0; /* Pembe ton */
+    color: #d81b60;
+}
+/*------------------------------Hydrafacial cilt bakımı------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #6c5b5b;
+}
+
+h1, h2 {
+    color: #d81b60; /* Koyu Pembe */
+    text-align: center;
+}
+
+.randevu-header {
+    background-color: #f8bbd0; /* Pembe ton */
+    padding: 40px;
+    text-align: center;
+}
+
+.randevu-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.randevu-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.randevu-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.randevu-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.randevu-form .btn {
+    background-color: #d81b60; /* Koyu Pembe */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu-form .btn:hover {
+    background-color: #c2185b;
+}
+
+.randevu-ekstra-bilgiler {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama h2 {
+    color: #d81b60; /* Koyu Pembe */
+    margin-bottom: 10px;
+}
+
+.aciklama p {
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8bbd0; /* Pembe ton */
+    color: #d81b60;
+}
+/*----------------------------karbon peeling-------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #6c5b5b;
+}
+
+h1, h2 {
+    color: #d81b60; /* Koyu Pembe */
+    text-align: center;
+}
+
+.randevu-header {
+    background-color: #f8bbd0; /* Pembe ton */
+    padding: 40px;
+    text-align: center;
+}
+
+.randevu-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.randevu-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.randevu-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.randevu-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.randevu-form .btn {
+    background-color: #d81b60; /* Koyu Pembe */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.randevu-form .btn:hover {
+    background-color: #c2185b;
+}
+
+.randevu-ekstra-bilgiler {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aciklama h2 {
+    color: #d81b60; /* Koyu Pembe */
+    margin-bottom: 10px;
+}
+
+.aciklama p {
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8bbd0; /* Pembe ton */
+    color: #d81b60;
+}
+
